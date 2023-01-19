@@ -1,0 +1,56 @@
+.menuPage {
+    background-image: url("../../assets/menu-bg.png");
+    background-size: cover;
+    height: 625px;
+    color: #fff;
+}
+
+.title {
+    max-width: 400px;
+    max-height: 200px;
+    border-radius: 180px;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    display: block;
+    margin: auto;
+    transform: translateX(340%);
+}
+
+.logo1 {
+    height: 100px;
+    width: 100px;
+}
+
+.menunav {
+    background-color: transparent;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -150px;
+}
+
+.menunav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+}
+
+.categ {
+    padding: 0rem 1.5rem;
+    border-bottom: 1px solid #ffc825;
+}
+
+.categ:hover {
+    background-color: #ffc825;
+    color: #c8102e;
+    font-weight: 400;
+}
+
+.categ2{
+    background-color: #fff;
+    color: #c8102e;
+}
